@@ -60,14 +60,14 @@ export default function offerPage(){
 
     const soupHeading = document.createElement('h3');
     soupHeading.classList.add('foodOfferHeading')
-    soupHeading.textContent = 'Special Spicy Soup';
+    soupHeading.textContent = 'Loaded Nachos';
 
     const soupOriginalPrice = document.createElement('h3');
-    soupOriginalPrice.textContent = '$ 8';
+    soupOriginalPrice.textContent = '$ 6';
     soupOriginalPrice.classList.add('foodOriginalPrice');
 
     const soupDiscountPrice = document.createElement('h3');
-    soupDiscountPrice.textContent = '$ 4';
+    soupDiscountPrice.textContent = '$ 3';
     soupDiscountPrice.classList.add('foodDiscountPrice');
 
 

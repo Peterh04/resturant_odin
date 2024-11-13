@@ -626,3 +626,10 @@ input[type="number"].telephoneInput {
 
 }
 
+
+.homeBtn{
+  background: none;
+  border: none;
+  color: var(--btn-main-600);
+  cursor: pointer;
+}

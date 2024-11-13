@@ -6,6 +6,7 @@ import offerMainPage from './offerMainPage'
 
 
 
+
 const clearContent = () =>{
     const contentDiv = document.querySelector('#content');
     contentDiv.innerHTML = '';
@@ -42,6 +43,7 @@ function setUpEventListeners (){
     document.querySelector('.bookingBtn').addEventListener('click', loodBooking);
     document.querySelector('.membershipBtn').addEventListener('click', loadingMembership);
     document.querySelector('.offerPageBtn').addEventListener('click', loadingofferMainPage);
+    document.querySelector('.homeBtn').addEventListener('click', loadHome);
 }
 
 
